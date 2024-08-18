@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!--boxiconcss-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#experiance">Experiance</a>
+            <a href="#Portfolio">Porfolio</a>
+            <a href="#Contact">Contact</a>
+
+        </nav>
+    </header>
+    <!--Home section-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello It's Me</h3>
+            <h1>N Muhammed Nehab</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I am a passionate and dedicated final-year Bachelor of Computer Applications (BCA) student with a strong focus on front-end development. With a solid foundation in HTML, CSS, and JavaScript, I enjoy creating intuitive and visually appealing user interfaces. My experience extends to working with modern web technologies and frameworks, and I am constantly striving to learn and implement best practices in web development. I am eager to apply my skills to real-world projects and continue growing as a developer</p>
+            <div class="social-media">
+                <a href="https://github.com/nehabmuhammed"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAa1JREFUSEvFlo1NAzEMRtNNYBOYBJgEmASYpHSSsgncQ/cdjuskboR0lqpCleT5c/yTQ9nJDjtxywz4rpRyszrM9+f691cphU/KsmAAzwvEQiMATjxlHMiA35aDHlMy/ha9l1Jeew70wKgEisoZI+z3LXgLDPQ8Qwv23EbwFvholCp5ssqVZFofKo/AL2siyXmShTvjIBLMZjJr+F+/faxZzlqcl3HfnLuZB0ch5p6kOhv96Jwq5B7s1QL6LzBRI3q/5sHfThL3g6czRnKq0Wj/ptqCo/Bc3M0VHnSjZ8E+IWbDLN+i85SoVajpTjQMa2ENJlVHEUyDZxJLfnWvbhTqzcOkSrssfcds8lmdnjaBY7b7XVSRL6eoBGYyO8qXqjR7DYSFqsPhmDOKW2O0EhD1aqnWQOcgOUDo6cc4Yg2F6uOtdKhYoyFBOXHog4FHCTcao8MhIW+lGoWUlH3yeLV+j1cctt3eC0RwvAU2eshFidns9aM3lz1MA54IRObB3QEzAgOwidM7zIKHJZgBS536+DZTnWwaxmn5rXpppFJ8oi1Ob7lG8TQk2rgb+AfWnmsfmQKnwwAAAABJRU5ErkJggg=="/></box-icon></a>
+                <a href="https://x.com/NehabMuham31309"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAWtJREFUSEvtlu1tAjEMhl8moUxSmIQySdtJCpNAJymj0AfFVQhO4vtQ+YMldOIu8fthx3cLPSgWD8LVE/jfnJ/L6g9JW0kvkk6SDul6Tkreiv9ujY+SdpJsU8sFgL5+k66dRRD4ToR4vMrXlIpJ9JPYRcAh6YHmGAj4TEIgc40SGEtQQLCoBW4ke31hzjUVwx4VecB271hPXd97qGkfAv7Ueoq5h9WoKYONZhkqosDsYe1NeF2dd2hLEOAewXJPCJga27GIJA04fe0TStVU7NU4kry1ZlPWd2iNxxCgHDfdbEm8GmMxnT2H1TQkiu+iNjJtInGdQsC1uWY192kyzugU0KrNLeA57K6qbQHzbAq4e3bzQkdeixwxzjb2R6LaUEOBeWlEQRkUDIxulIpRZ528HAAIkDuhagw8YGw1Al3maRyGVEasBthe8K+ZCxwR+/F1cTeDI0x7XR3NMWpdpKtHJe5tegL3HJrt+QXBlEMf+R+PgwAAAABJRU5ErkJggg=="/></a>
+                <a href="https://www.instagram.com/__nehab__/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAblJREFUSEvNl7EuREEUhr99EzS8gUaCREWEghq9Qkco2EQiUSn0qGkIjQbReAUV76Fg/2TOZtydmTt3drO702x2MzPf+f8558xsixGN1oi4jD14wjljnymjXnNcTCkWZBuYBxZyNvPmfAM3ne8nsXUxsEAvDWGh6QpgpxN4jwsx8BeQY2tObIJPVieGwFfO4pxNYyoF84/n2invzg+B+1Hrq9NRGbxHdQj8WyPVEsfOTUdy7I7GB/gCasF1SdWOZKpVgAIQRKOaI4t+klUVp8AGnQE2gTkHeAdugU8XlOChUQSWrVo4DVwCS5Wdn4Fd4AdQcobqvghsao+A04iiQ+AsoboIrCagkngCliPgB2DNqQ01nyKwLXoEViLge2Dd9QDZXR1FYLP6wNkZYu8D54O22upwCrgAVitkqd1zpRRrQEWKxbG2p767Acw6+Adw56C6jYrKSUWviGM9OHXVpaDaTwFbc+l5gaTAFowWq67fvA61lXGb/WtWoV7tN/eI+MY/1/Zq7VhnWWOqlx/dtSHFsluqh/4QUFSDgjd++hh86I+96jnKgVzr+37eliRR9pqx/yeRrSR34h/wNmcf6GENxQAAAABJRU5ErkJggg=="/></a>
+                <a href="https://www.linkedin.com/in/n-muhammed-nehab-66a036244/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATVJREFUSEvtljFuwkAQRR8HoExDFVrOkEhwDhQBoghHSAfcgg4iRWlzAkSU9Gkpk0PkAORHCxoPNga0lhHySCtL6915npm/O65RktVK4nJx4D5wAyyBryKykhbxJ3BnYA/AS2y4Bz8CMwdZA62iweM/wMRBfoF60eB74MNBXoFu0WD5HwFPQAN4A4aAoo5qF3eczo3uFtD4CSPTj49Ym1Zu9bMRnITXc+87ATYPT/v6HRikfUQa+Ns5XoTNmhZYyrc2TZnLhccAH1MWfVzimMYGq7YqlzelXCXZWSywnMp5Vjk037S1jgHeS2MQaNuFHR0s1UqA1qRwdThrNit7/Vj1OVXVCYcH0l2BE3WoUq105F2Zlbiybq+Dx0mb/I1je+u23/ru4+/m3HVX8wdyTIv8X1NaxBtPCGofbR6NigAAAABJRU5ErkJggg=="/></a>
+            </div>
+            <a href="https://drive.google.com/file/d/14YecBMraoo_cFnRHpvGxk6USs-g0hM3_/view?usp=sharing" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="nehab.png" width="400" height="300" alt="">
+        </div>
+    </section>
+    <!--About section-->
+    <section class="about" id="about">
+        
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Skills</h3>
+        <ul><li>Html</li></ul>
+        <li></li>
+    </section>
+    <!--experience-->
+    <section class="experiance" id="experiance">
+        <h2 class="heading">My <span>Experiance</span></h2>
+        <div class="experiance-container">
+            <div class="experiance-box">
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAUFJREFUSEvNlmESwUAMRuMmnAQ34SQ4CU6Ck+Ak9M3smtrubrLEVGY6frTyki9fN53ISDEZiSufgqcisuquW7jOrQ20ggHuRWSRgChgGYow1dACBnaqZAW+7ooydd8CBpp2mtYBfGZp2QpmnkhsCSRXu7aCtyKysVBFZNc9x/PV+AX4EGbtAtaM1YdgMOAuYF6jq5Ys3MdcmMwFTBKLwUzGIpl1xrH6mslMpoqJWsH8D9mZ+TwkuYeZqvL2tf8ErI3PdP/vwVFefqPEaWdIfbFuK63j0jbS5OQ9xmzFudfALYdGrhCgx9LxWQJ/C42FFFdlCWxZgZrcffhgVebALZvICh+c3zkwe5fj0TPYzxynr8iBWQa42TMGXyY58MOT2Mv1tkBSsJebc7VXwUjsLXMs4u07TDu5fqR6+z52K2S0jp8qNTYfcSiZaQAAAABJRU5ErkJggg=="/></a>
+                <h3>YIP 6.0 Coordinator</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda impedit obcaecati magni tenetur, harum repellendus laboriosam tempore doloribus, error ab debitis in exercitationem? Accusamus, repudiandae unde est molestias illum quos.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="experiance-container">
+                <div class="experiance-box">
+                    <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAUFJREFUSEvNlmESwUAMRuMmnAQ34SQ4CU6Ck+Ak9M3smtrubrLEVGY6frTyki9fN53ISDEZiSufgqcisuquW7jOrQ20ggHuRWSRgChgGYow1dACBnaqZAW+7ooydd8CBpp2mtYBfGZp2QpmnkhsCSRXu7aCtyKysVBFZNc9x/PV+AX4EGbtAtaM1YdgMOAuYF6jq5Ys3MdcmMwFTBKLwUzGIpl1xrH6mslMpoqJWsH8D9mZ+TwkuYeZqvL2tf8ErI3PdP/vwVFefqPEaWdIfbFuK63j0jbS5OQ9xmzFudfALYdGrhCgx9LxWQJ/C42FFFdlCWxZgZrcffhgVebALZvICh+c3zkwe5fj0TPYzxynr8iBWQa42TMGXyY58MOT2Mv1tkBSsJebc7VXwUjsLXMs4u07TDu5fqR6+z52K2S0jp8qNTYfcSiZaQAAAABJRU5ErkJggg=="/></a>
+                    <h3>YIP 6.0 Coordinator</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda impedit obcaecati magni tenetur, harum repellendus laboriosam tempore doloribus, error ab debitis in exercitationem? Accusamus, repudiandae unde est molestias illum quos.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="experiance-container">
+                    <div class="experiance-box">
+                        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAUFJREFUSEvNlmESwUAMRuMmnAQ34SQ4CU6Ck+Ak9M3smtrubrLEVGY6frTyki9fN53ISDEZiSufgqcisuquW7jOrQ20ggHuRWSRgChgGYow1dACBnaqZAW+7ooydd8CBpp2mtYBfGZp2QpmnkhsCSRXu7aCtyKysVBFZNc9x/PV+AX4EGbtAtaM1YdgMOAuYF6jq5Ys3MdcmMwFTBKLwUzGIpl1xrH6mslMpoqJWsH8D9mZ+TwkuYeZqvL2tf8ErI3PdP/vwVFefqPEaWdIfbFuK63j0jbS5OQ9xmzFudfALYdGrhCgx9LxWQJ/C42FFFdlCWxZgZrcffhgVebALZvICh+c3zkwe5fj0TPYzxynr8iBWQa42TMGXyY58MOT2Mv1tkBSsJebc7VXwUjsLXMs4u07TDu5fqR6+z52K2S0jp8qNTYfcSiZaQAAAABJRU5ErkJggg=="/></a>
+                        <h3>YIP 6.0 Coordinator</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda impedit obcaecati magni tenetur, harum repellendus laboriosam tempore doloribus, error ab debitis in exercitationem? Accusamus, repudiandae unde est molestias illum quos.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+        </div>
+    </section>
+    <!--Portfolio section-->
+    <section class="porfolio" id="Portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="pic1.png.jpg" alt="" >
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Li soluta commodi unde alias necessitatibus vero suscipit, pariatur illum odio enim dolorem, inventore porro cumque facilis!</p>
+                    <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATFJREFUSEvtl90NwjAMhK+bMApsApMAk8AmsAmMgg6Rykmd9BKlah+whMSD48//mAErybASF5sE7zPZeAPgJ8gOAD9zEr3zIj4CuBWs0MAJwPOnQ+hDgB/MGzfVL8FIC7wIZnrpPeVqPXQy4KW8FLkMjhTnCiikfVGwzVjq62LgFMpS2G5fBJxCCSHY1rw72IN6o9YVXILaBcPI7exP5tgamutqBWrh/D5uvHRzqeAaqDuJLeAaaNjjoeajE7VgGuJKDaKUg3s/qi8f14L55gLgDGAOSt2QnXS3N4FpkJHbn8bcRs32TEvE4tr+qv3BY3dvMtUcAaWBSjVnjTkBlOKuVu+nmgYLulF2c8cevVQuR8UBZo1n1N0q5+5q9WRVwJN16W0uxVAXnU3+k+gSWc7IB8tYbB9haRmiAAAAAElFTkSuQmCC"/></a>
+                </div>
+
+            </div>
+
+            <div class="portfolio-box">
+                <img src="pic1.png.jpg" alt="" >
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Li soluta commodi unde alias necessitatibus vero suscipit, pariatur illum odio enim dolorem, inventore porro cumque facilis!</p>
+                    <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATFJREFUSEvtl90NwjAMhK+bMApsApMAk8AmsAmMgg6Rykmd9BKlah+whMSD48//mAErybASF5sE7zPZeAPgJ8gOAD9zEr3zIj4CuBWs0MAJwPOnQ+hDgB/MGzfVL8FIC7wIZnrpPeVqPXQy4KW8FLkMjhTnCiikfVGwzVjq62LgFMpS2G5fBJxCCSHY1rw72IN6o9YVXILaBcPI7exP5tgamutqBWrh/D5uvHRzqeAaqDuJLeAaaNjjoeajE7VgGuJKDaKUg3s/qi8f14L55gLgDGAOSt2QnXS3N4FpkJHbn8bcRs32TEvE4tr+qv3BY3dvMtUcAaWBSjVnjTkBlOKuVu+nmgYLulF2c8cevVQuR8UBZo1n1N0q5+5q9WRVwJN16W0uxVAXnU3+k+gSWc7IB8tYbB9haRmiAAAAAElFTkSuQmCC"/></a>
+                </div>
+
+            </div>
+
+            <div class="portfolio-box">
+                <img src="pic1.png.jpg" alt="" >
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Li soluta commodi unde alias necessitatibus vero suscipit, pariatur illum odio enim dolorem, inventore porro cumque facilis!</p>
+                    <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATFJREFUSEvtl90NwjAMhK+bMApsApMAk8AmsAmMgg6Rykmd9BKlah+whMSD48//mAErybASF5sE7zPZeAPgJ8gOAD9zEr3zIj4CuBWs0MAJwPOnQ+hDgB/MGzfVL8FIC7wIZnrpPeVqPXQy4KW8FLkMjhTnCiikfVGwzVjq62LgFMpS2G5fBJxCCSHY1rw72IN6o9YVXILaBcPI7exP5tgamutqBWrh/D5uvHRzqeAaqDuJLeAaaNjjoeajE7VgGuJKDaKUg3s/qi8f14L55gLgDGAOSt2QnXS3N4FpkJHbn8bcRs32TEvE4tr+qv3BY3dvMtUcAaWBSjVnjTkBlOKuVu+nmgYLulF2c8cevVQuR8UBZo1n1N0q5+5q9WRVwJN16W0uxVAXnU3+k+gSWc7IB8tYbB9haRmiAAAAAElFTkSuQmCC"/></a>
+                </div>
+
+            </div>
+
+            <div class="portfolio-box">
+                <img src="pic1.png.jpg" alt="" >
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Li soluta commodi unde alias necessitatibus vero suscipit, pariatur illum odio enim dolorem, inventore porro cumque facilis!</p>
+                    <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATFJREFUSEvtl90NwjAMhK+bMApsApMAk8AmsAmMgg6Rykmd9BKlah+whMSD48//mAErybASF5sE7zPZeAPgJ8gOAD9zEr3zIj4CuBWs0MAJwPOnQ+hDgB/MGzfVL8FIC7wIZnrpPeVqPXQy4KW8FLkMjhTnCiikfVGwzVjq62LgFMpS2G5fBJxCCSHY1rw72IN6o9YVXILaBcPI7exP5tgamutqBWrh/D5uvHRzqeAaqDuJLeAaaNjjoeajE7VgGuJKDaKUg3s/qi8f14L55gLgDGAOSt2QnXS3N4FpkJHbn8bcRs32TEvE4tr+qv3BY3dvMtUcAaWBSjVnjTkBlOKuVu+nmgYLulF2c8cevVQuR8UBZo1n1N0q5+5q9WRVwJN16W0uxVAXnU3+k+gSWc7IB8tYbB9haRmiAAAAAElFTkSuQmCC"/></a>
+                </div>
+
+            </div>
+            <div class="portfolio-box">
+                <img src="pic1.png.jpg" alt="" >
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Li soluta commodi unde alias necessitatibus vero suscipit, pariatur illum odio enim dolorem, inventore porro cumque facilis!</p>
+                    <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATFJREFUSEvtl90NwjAMhK+bMApsApMAk8AmsAmMgg6Rykmd9BKlah+whMSD48//mAErybASF5sE7zPZeAPgJ8gOAD9zEr3zIj4CuBWs0MAJwPOnQ+hDgB/MGzfVL8FIC7wIZnrpPeVqPXQy4KW8FLkMjhTnCiikfVGwzVjq62LgFMpS2G5fBJxCCSHY1rw72IN6o9YVXILaBcPI7exP5tgamutqBWrh/D5uvHRzqeAaqDuJLeAaaNjjoeajE7VgGuJKDaKUg3s/qi8f14L55gLgDGAOSt2QnXS3N4FpkJHbn8bcRs32TEvE4tr+qv3BY3dvMtUcAaWBSjVnjTkBlOKuVu+nmgYLulF2c8cevVQuR8UBZo1n1N0q5+5q9WRVwJN16W0uxVAXnU3+k+gSWc7IB8tYbB9haRmiAAAAAElFTkSuQmCC"/></a>
+                </div>
+
+            </div>
+            <div class="portfolio-box">
+                <img src="pic1.png.jpg" alt="" >
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Li soluta commodi unde alias necessitatibus vero suscipit, pariatur illum odio enim dolorem, inventore porro cumque facilis!</p>
+                    <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATFJREFUSEvtl90NwjAMhK+bMApsApMAk8AmsAmMgg6Rykmd9BKlah+whMSD48//mAErybASF5sE7zPZeAPgJ8gOAD9zEr3zIj4CuBWs0MAJwPOnQ+hDgB/MGzfVL8FIC7wIZnrpPeVqPXQy4KW8FLkMjhTnCiikfVGwzVjq62LgFMpS2G5fBJxCCSHY1rw72IN6o9YVXILaBcPI7exP5tgamutqBWrh/D5uvHRzqeAaqDuJLeAaaNjjoeajE7VgGuJKDaKUg3s/qi8f14L55gLgDGAOSt2QnXS3N4FpkJHbn8bcRs32TEvE4tr+qv3BY3dvMtUcAaWBSjVnjTkBlOKuVu+nmgYLulF2c8cevVQuR8UBZo1n1N0q5+5q9WRVwJN16W0uxVAXnU3+k+gSWc7IB8tYbB9haRmiAAAAAElFTkSuQmCC"/></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Contact section-->
+
+    <section class="contact" id="Contact">
+    
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile No">
+                <input type="text" placeholder="Email Subject">
+
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Mesaage" class="btn">
+        </form>
+        
+    </section>
+    <!--footer section-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Muhammed Nehab | All Rights reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <!--Typed js-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!--Scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--Js Portion-->
+    <script src="script.js"></script>
+
+</body>
+</html>
