@@ -93,6 +93,10 @@ span{
     height: 400px;
     animation: floatImage 3s ease-in-out infinite;
 }
+.home-img img{
+    border-radius: 50%;
+
+}
 @keyframes floatImage {
     0% {
         transform: translateY(0);
